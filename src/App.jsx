@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Stats from './components/Stats';
 import Features from './components/Features';
 import CTA from './components/CTA';
+import Services from './components/Services';
 import Footer from './components/Footer';
 import Loader from './components/Loader';
 
@@ -28,6 +29,7 @@ function App() {
       <Stats />
       <Features />
       <CTA />
+      <Services />
       <Footer />
     </>
   );

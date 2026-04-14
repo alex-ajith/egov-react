@@ -267,3 +267,51 @@ h5 {
     transform: rotate(360deg);
   }
 }
+
+.services input {
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.services-card {
+  background: #eef4ff;
+  border-radius: 16px;
+  padding: 25px;
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.services-card button {
+  margin-top: auto;
+   transition: 0.3s;
+}
+
+.services-card button:hover {
+  transform: scale(1.05);
+}
+
+.services-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin: 0 auto 12px;
+}
+
+.services-card h5 {
+  font-weight: 600;
+}
+
+.services-card h6 {
+  color: #2a6df4;
+  margin-bottom: 10px;
+}
+
+.services-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
